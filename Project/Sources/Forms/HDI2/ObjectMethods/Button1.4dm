@@ -1,0 +1,19 @@
+If (Form:C1466.trace)
+	TRACE:C157
+End if 
+
+$section:=WP Get section:C1581(wpArea1; 2)
+If ($section#Null:C1517)
+	
+	// two possible syntaxes : 
+	
+	//WP DELETE SECTION(wpArea1; 2)
+	//WP DELETE SECTION($section)
+	
+	WP DELETE SECTION:C1842($section)
+Else 
+	ALERT:C41("Section 2 does not exist anymore!")
+End if 
+
+Form:C1466.action:="calcStats"
+SET TIMER:C645(-1)
