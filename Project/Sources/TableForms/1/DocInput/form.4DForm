@@ -249,7 +249,7 @@
 						"onClick"
 					]
 				},
-				"WParea2": {
+				"form.wp2": {
 					"type": "write",
 					"top": 136,
 					"left": 960,
@@ -262,7 +262,7 @@
 					"scrollbarVertical": "automatic",
 					"scrollbarHorizontal": "automatic",
 					"borderStyle": "none",
-					"method": "ObjectMethods/WParea2.4dm",
+					"method": "ObjectMethods/form.wp2.4dm",
 					"events": [
 						"onLoad",
 						"onLosingFocus",
@@ -311,7 +311,7 @@
 					],
 					"sizingX": "fixed"
 				},
-				"WParea1": {
+				"form.wp1": {
 					"type": "write",
 					"top": 130,
 					"left": 13,
@@ -324,7 +324,7 @@
 					"scrollbarVertical": "automatic",
 					"scrollbarHorizontal": "automatic",
 					"borderStyle": "none",
-					"method": "ObjectMethods/WParea1.4dm",
+					"method": "ObjectMethods/form.wp1.4dm",
 					"events": [
 						"onLoad",
 						"onLosingFocus",
@@ -341,6 +341,19 @@
 					"left": 13,
 					"width": 297,
 					"height": 16
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Set section 1 bkgnd - white",
+					"top": 800,
+					"left": 433,
+					"width": 212,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm",
+					"sizingY": "move"
 				}
 			}
 		}
@@ -374,7 +387,7 @@
 			"View 9": {}
 		}
 	},
-	"geometryStamp": 378,
+	"geometryStamp": 383,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

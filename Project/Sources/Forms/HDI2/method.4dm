@@ -34,8 +34,8 @@ Case of
 				
 				$index:=Form:C1466.tabControl.index
 				FORM GOTO PAGE:C247($index+1)
-				WParea1:=Form:C1466.documents[$index].sample
-				WParea2:=Form:C1466.documents[$index].comments
+				Form:C1466.wp1:=Form:C1466.documents[$index].sample
+				Form:C1466.wp2:=Form:C1466.documents[$index].comments
 				
 				WP SET VIEW PROPERTIES:C1648(*; "WPareaLeft_2"; {zoom: 10})
 				
@@ -46,13 +46,13 @@ Case of
 				SET TIMER:C645(-1)
 				
 			: (Form:C1466.action="calcStats")
-				Form:C1466.stats:=CalcStats(WParea1)
+				Form:C1466.stats:=CalcStats(Form:C1466.wp1)
 				
 				
 		End case 
 		
-		//WP SET DATA CONTEXT(WParea2; New object("company"; Form.companies[0]))
-		//WP COMPUTE FORMULAS(WParea2)
+		//WP SET DATA CONTEXT(form.wp2; New object("company"; Form.companies[0]))
+		//WP COMPUTE FORMULAS(form.wp2)
 		
 		
 End case 

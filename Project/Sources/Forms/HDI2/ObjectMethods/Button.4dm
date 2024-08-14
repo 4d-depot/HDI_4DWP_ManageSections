@@ -2,7 +2,7 @@ If (Form:C1466.trace)
 	TRACE:C157
 End if 
 
-$section:=WP Get section:C1581(wpArea1; 1)
+$section:=WP Get section:C1581(Form:C1466.wp1; 1)
 //section 1 always exists but it can't be deleted if it's the last one!
 
 Try
