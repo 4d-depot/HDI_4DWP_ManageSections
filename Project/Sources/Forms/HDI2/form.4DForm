@@ -88,7 +88,7 @@
 					"sizingY": "grow",
 					"dataSource": "Form:C1466.wp2",
 					"enterable": false,
-					"focusable": false,
+					"focusable": true,
 					"hideFocusRing": true,
 					"scrollbarVertical": "automatic",
 					"scrollbarHorizontal": "automatic",
@@ -103,6 +103,17 @@
 					"zoom": 100,
 					"showHeaders": false,
 					"showFooters": false
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 410,
+					"left": 650,
+					"width": 610,
+					"height": 370,
+					"picture": "/RESOURCES/Images/Filigrane.png",
+					"pictureFormat": "scaled",
+					"sizingX": "move",
+					"sizingY": "move"
 				}
 			}
 		},
@@ -620,7 +631,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 7533,
+	"geometryStamp": 7537,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

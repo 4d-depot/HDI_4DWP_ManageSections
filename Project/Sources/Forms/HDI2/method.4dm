@@ -1,6 +1,7 @@
 C_TEXT:C284($path)
 C_LONGINT:C283($page)
 C_PICTURE:C286($pict)
+ARRAY TEXT:C222($methods; 0)
 
 var $index : Integer
 
@@ -8,9 +9,12 @@ Case of
 		
 	: (Form event code:C388=On Load:K2:1)
 		
+		APPEND TO ARRAY:C911($methods; "gotoPage")
+		SET ALLOWED METHODS:C805($methods)
+		
 		Form:C1466.trace:=False:C215
 		
-		Form:C1466.documents:=ds:C1482.Documents.all().orderBy("pageNumber")
+		Form:C1466.documents:=ds:C1482.Documents.query("pageNumber !=0").orderBy("pageNumber")
 		
 		Form:C1466.tabControl:=New object:C1471
 		Form:C1466.tabControl.values:=ds:C1482.Documents.all().orderBy("pageNumber").toCollection("title").extract("title")
