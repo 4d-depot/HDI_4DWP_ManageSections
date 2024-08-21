@@ -17,7 +17,7 @@ Case of
 		Form:C1466.documents:=ds:C1482.Documents.query("pageNumber !=0").orderBy("pageNumber")
 		
 		Form:C1466.tabControl:=New object:C1471
-		Form:C1466.tabControl.values:=ds:C1482.Documents.all().orderBy("pageNumber").toCollection("title").extract("title")
+		Form:C1466.tabControl.values:=ds:C1482.Documents.query("pageNumber !=0").orderBy("pageNumber").toCollection("title").extract("title")
 		Form:C1466.tabControl.index:=0
 		
 		
