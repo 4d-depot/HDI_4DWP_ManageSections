@@ -1,3 +1,4 @@
+var $section : Object
 
 $section:=WP Get section:C1581([Documents:1]sample:5; 1)
 
