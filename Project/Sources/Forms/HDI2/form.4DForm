@@ -51,10 +51,10 @@
 				},
 				"stats2": {
 					"type": "input",
-					"left": 520,
+					"left": 510,
 					"top": 273,
-					"width": 180,
-					"height": 121,
+					"width": 200,
+					"height": 221,
 					"dataSource": "Form:C1466.stats",
 					"enterable": false,
 					"focusable": false,
@@ -67,9 +67,9 @@
 					"type": "text",
 					"text": "Document stats:",
 					"top": 226,
-					"left": 520,
-					"width": 180,
-					"height": 26,
+					"left": 510,
+					"width": 200,
+					"height": 36,
 					"fontWeight": "bold",
 					"fontFamily": "Times New Roman",
 					"fontSize": 24
@@ -631,7 +631,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 7537,
+	"geometryStamp": 7566,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",
