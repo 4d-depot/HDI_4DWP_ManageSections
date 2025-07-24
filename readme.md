@@ -1,6 +1,6 @@
 # HDI_4DWP_ManageSections
 
-Manage 4D Write Pro sections and subsections (4D 20 R7) 
+Manage [4D Write Pro](https://us.4d.com/4D-write-pro) sections and subsections (4D 20 R7) 
 
 Find more information on the [blog post](https://blog.4d.com/4d-write-pro-mastering-sections-and-subsections-with-new-functions/).
 
