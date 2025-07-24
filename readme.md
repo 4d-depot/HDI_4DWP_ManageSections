@@ -1,8 +1,8 @@
-# HDI_Template_20
+# HDI_4DWP_ManageSections
 
-Description (4D 20 Rx)
+Manage 4D Write Pro sections and subsections (4D 20 R7) 
 
-Find more information on the [blog post](https://blog.4d.com/).
+Find more information on the [blog post](https://blog.4d.com/4d-write-pro-mastering-sections-and-subsections-with-new-functions/).
 
 ## Installing and Using a 4D Project
 
